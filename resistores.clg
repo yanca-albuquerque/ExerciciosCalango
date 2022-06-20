@@ -1,0 +1,18 @@
+algoritmo Resistores;
+// Síntese
+//  Objetivo:  Atividade 03 UCB - Yanca Albuquerque
+
+principal
+	// Declarações
+	real R1, R2, Req;
+
+	// Instruções
+   escreva( "Entre com o valor de R1: " );
+   leia( R1 ) ;
+   escreva( "Entre com o valor de R2: " );
+   leia( R2 ) ;
+	// Calculo dos Resistores
+   Req = R1 * R2 / R1 + R2 ;
+   escreval( "O valor de Req = ", Req ) ;
+
+fimPrincipal
