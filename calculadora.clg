@@ -1,0 +1,20 @@
+algoritmo calculadora;
+// Síntese
+//  Objetivo: Calcular a soma de 2 números - Yanca
+//  Entrada : 2 números
+//  Saída   : Soma 2
+
+
+principal
+	// Declarações
+	inteiro n1, n2, soma;
+
+	// Instruções
+	escreva("Digite o 1° número: ");
+	leia(n1);
+	escreva("Digite o 2° número: ");
+	leia(n2);
+	soma = n1 + n2;
+	escreva("A soma é ", soma);
+
+fimPrincipal
