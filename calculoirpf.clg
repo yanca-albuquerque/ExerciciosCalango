@@ -1,0 +1,32 @@
+algoritmo CalculoIRPF;
+// Síntese
+//  Objetivo:  Atividade 03 UCB - Yanca Albuquerque
+
+principal
+	// Declarações
+	real ali, ra, Total;
+	// Instruções
+	escreva("Digite o valor do Rendimento Anual: ");
+	leia(ra);
+	se (ra <= 22847.76) entao
+	Total = 0;
+	senao se (ra >= 22847.77 e ra <= 33919.80 ) entao
+	ali = 7.5;
+	Total = ra * (ali / 100) - 142.80;
+	senao se (ra >= 33919.81 e ra <= 45012.60 ) entao
+	ali = 15;
+	Total = ra * (ali / 100) - 354.80;
+	senao se (ra >= 45012.61 e ra <= 55976.16 ) entao
+	ali = 22.5;
+	Total = ra * (ali / 100) - 636.13;
+	senao
+	ali = 27.5;
+	Total = ra * (ali / 100) - 869.36;
+	fimSe
+	fimSe
+	fimSe
+	fimSe
+	escreval("Alíquota: ", ali, "%");
+	escreva("Imposto a pagar: R$ ", Total);
+
+fimPrincipal
