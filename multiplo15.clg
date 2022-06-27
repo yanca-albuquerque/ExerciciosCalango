@@ -1,0 +1,18 @@
+algoritmo Multiplo15;
+// Síntese
+//  Objetivo:  Atividade 03 UCB - Yanca Albuquerque
+
+principal
+	// Declarações
+	inteiro multiplo, soma;
+	
+	// Instruções
+	multiplo = 15;
+	soma = 0;
+	enquanto(multiplo < 500) faca
+	soma = soma + multiplo;
+	escreval("Somando ", multiplo, ", o valor da soma é = ", soma);
+	multiplo = multiplo + 15;
+	fimEnquanto
+fimPrincipal
+	
